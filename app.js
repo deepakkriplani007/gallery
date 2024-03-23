@@ -5,7 +5,7 @@ require("./db/conn");
 
 const cors = require("cors");
 const router = require("./routes/router");
-const port = 500;
+const port = 5000;
 
 
 app.use(express.json());
